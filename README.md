@@ -1,5 +1,17 @@
 # Water-Quality-Monitor
-Water quality monitor using TDS, Turbidity sensor and Rpi
+## Module 1
+Low-cost, real-time water quality monitoring system built around a Raspberry Pi single-board computer. The system acquires analog sensor data—Total Dissolved Solids (TDS) and turbidity. Through an ADS1115 16-bit ADC over the I²C bus
+## Module 2
+Computes quality metrics using calibrated polynomial equations to get a normalized numarical values to differenciate Clean or Dirty water.
+## Module 3
+Displays live readings on a 16×2 LCD as well as terminal.
+## Module 4
+LED-based alert sub-system provides immediate visual feedback when measured parameters exceed safe thresholds.
+## Module 5
+Store real time va;ues in database for graphical representation. Helps to visualize the relations.
+
+The integrated solution delivers actionable water quality information suitable for rural, domestic, and field deployment scenarios.
+
 ## SETUP & RESULT
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/16c0529a-18df-4879-81c1-2400e5ce7253" />
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/2a723ee7-dda0-43ca-89c0-6d84453ac27d" />
